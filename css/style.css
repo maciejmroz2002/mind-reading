@@ -6,6 +6,15 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.circle-image {
+  border-radius: 100px;  /* Makes the image circular */
+  object-fit: cover;  /* Ensures the image fills the circle without distortion */
+}
+
 .layout_padding {
   padding: 90px 0;
 }
